@@ -18,7 +18,7 @@ public class BaseTest {
     public void setupDriver(ITestContext ctx) throws MalformedURLException {
         // BROWSER => chrome / firefox
         // HUB_HOST => localhost / 10.0.1.3 / hostname
-
+System.out.println(" ");
         String host = "localhost";
         DesiredCapabilities dc;
 
